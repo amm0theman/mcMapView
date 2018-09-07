@@ -1,0 +1,55 @@
+﻿<Window x:Class="homework03gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:homework03gui"
+        mc:Ignorable="d"
+        Title="MC Prospector" Height="450" Width="816">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="279*"></RowDefinition>
+            <RowDefinition Height="110*"/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" ItemWidth="160" ItemHeight="30">
+            <TextBlock TextAlignment="Center" VerticalAlignment="Center" FontFamily="Batang">Slice Viewer</TextBlock>
+            <Button Name="OpenMap" Content="Open Map" FontFamily="Batang"></Button>
+            <Button Name="SaveMap" Content="Save Map" FontFamily="Batang"></Button>
+            <Button Name="UpALayer" Content="Up A Layer" FontFamily="Batang" Click="UpALayer_Click"></Button>
+            <Button Name="DownALayer" Content="Down A Layer" FontFamily="Batang" Height="30" VerticalAlignment="Bottom" Click="DownALayer_Click"></Button>
+        </WrapPanel>
+        <DockPanel Grid.Row="1" Grid.RowSpan="2">
+            <Button DockPanel.Dock="Top" Click="goNorth">Go North</Button>
+            <Button DockPanel.Dock="Bottom" Click="goSouth">Go South</Button>
+            <Button DockPanel.Dock="Left" Click="goWest">Go West</Button>
+            <Button DockPanel.Dock="Right" Click="goEast">Go East</Button>
+            <ItemsControl Name="Map"  local:GridUtils.ItemsSource="{Binding Path=CurrentSlice}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid local:GridUtils.ItemsPerRow="16" ShowGridLines="False" Margin="30,0,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </DockPanel>
+    </Grid>
+</Window>

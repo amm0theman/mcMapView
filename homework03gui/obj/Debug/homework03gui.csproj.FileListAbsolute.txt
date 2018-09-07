@@ -1,0 +1,17 @@
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\bin\Debug\homework03gui.exe.config
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\bin\Debug\homework03gui.exe
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\bin\Debug\homework03gui.pdb
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\bin\Debug\Substrate.dll
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\MainWindow.g.cs
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\App.g.cs
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui_MarkupCompile.cache
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui_MarkupCompile.lref
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\MainWindow.baml
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.g.resources
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.Properties.Resources.resources
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.csproj.GenerateResource.cache
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.csproj.CoreCompileInputs.cache
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.csproj.CopyComplete
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.exe
+c:\users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\homework03gui.pdb
+C:\Users\ammon.riley\source\repos\homework03gui\homework03gui\obj\Debug\GeneratedInternalTypeHelper.g.cs
